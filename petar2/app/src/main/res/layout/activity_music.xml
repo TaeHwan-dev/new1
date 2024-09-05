@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/groupStyleorange_50"
+    android:orientation="vertical"
+    tools:context=".Music">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+
+        <ImageView
+            android:id="@+id/previous"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/ic_action_previous"
+            android:layout_gravity="center"
+            android:clickable="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/music"
+            android:layout_gravity="center"
+            android:clickable="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/ic_action_next"
+            android:layout_gravity="center"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center"/>
+</LinearLayout>

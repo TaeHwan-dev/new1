@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "petar"
+include ':unityLibrary'
+include ':launcher'

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/groupStyleorange_50"
+    android:orientation="vertical"
+    tools:context=".Clicker">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearColumngroupsixtyone"
+        style="@style/groupStylewhite_5"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginStart="@dimen/_155pxh"
+        android:layout_marginTop="@dimen/_52pxv"
+        android:layout_marginEnd="@dimen/_155pxh"
+        android:layout_marginBottom="@dimen/_35pxv"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/txtGroupSixtyOne"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="@dimen/_6pxh"
+            android:layout_marginLeft="@dimen/_6pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_marginEnd="@dimen/_7pxh"
+            android:layout_marginRight="@dimen/_7pxh"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:paddingStart="@dimen/_1pxh"
+            android:paddingLeft="@dimen/_18pxh"
+            android:paddingTop="@dimen/_16pxv"
+            android:paddingBottom="@dimen/_22pxv"
+            android:singleLine="true"
+            android:clickable="true"
+            android:background="@drawable/redselect"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼을 누르면 소리가 납니다."
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAppearance="@style/some_id_1"/>
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="클리커 훈련은 ‘조건 반사’ 개념을 응용한 실험이다. 클리커 소리를 들으면 간식/칭찬이 온다는 것을 강아지에게 가르치는 것이다"
+        android:layout_gravity="center"
+        android:textColor="#808080"
+        android:lineSpacingExtra="-1sp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"/>
+</LinearLayout>

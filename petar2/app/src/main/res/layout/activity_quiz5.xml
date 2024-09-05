@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/groupStyleorange_50"
+    android:orientation="vertical"
+    tools:context=".Quiz5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_40pxv"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="문제 5."
+            android:textStyle="bold"
+            android:textColor="@color/lime_100"
+            android:textAppearance="@style/some_id_2"
+            android:lineSpacingExtra="-1sp"/>
+
+
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="351dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="다음 중 3개월령 강아지를 데려온 후 집 안에서 옳지 않은 행동을 고르시오."
+            android:textStyle="bold"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"
+            android:gravity="top" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/lime_100"
+        android:id="@+id/lineLineFour"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/_3pxv"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_15pxv"
+        android:layout_width="@dimen/_354pxh"
+        android:layout_marginRight="@dimen/_21pxh"
+        android:layout_marginLeft="@dimen/_21pxh" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="1. 아기 강아지가 배변을 잘 볼 수 있도록 배변 패드를 깐 후 배변 교육을 시킨다."
+            android:textAppearance="@style/some_id_1"
+            android:lineSpacingExtra="-1sp"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="2. 강아지에게 위험한 각종 위험물을 강아지가 손 댈 수 없게 위로 치운다."
+            android:textAppearance="@style/some_id_1"
+            android:lineSpacingExtra="-1sp"/>
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="3. 체온 유지를 위해 몸을 따뜻하게 하고 급여 횟수 및 시간을 지켜 급여한다."
+            android:textAppearance="@style/some_id_1"
+            android:lineSpacingExtra="-1sp"/>
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="4. 강아지는 산책을 좋아하니 공원, 도로변 풀 숲을 돌며 산책을 함께 한다"
+            android:textAppearance="@style/some_id_1"
+            android:lineSpacingExtra="-1sp"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/logo2"/>
+
+
+</LinearLayout>

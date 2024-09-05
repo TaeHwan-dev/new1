@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">jung_s_application</string>
+    <string name="loading" translatable="false">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_pet2">PET음악</string>
+    <string name="msg">로그인이 필요한 서비스입니다.
+로그인 하시겠어요?</string>
+    <string name="lbl4">홈</string>
+    <string name="lbl5">검색</string>
+    <string name="lbl2">인기검색어</string>
+    <string name="lbl3">최근검색어</string>
+    <string name="lbl_x">X</string>
+    <string name="lbl40">검색내역</string>
+    <string name="lbl41">삭제</string>
+    <string name="lbl42">오픈소스 라이센스</string>
+    <string name="lbl43">회원탈퇴</string>
+    <string name="lbl44">취소</string>
+    <string name="lbl45">확인</string>
+    <string name="lbl46">육아수첩</string>
+    <string name="lbl47">전체선택</string>
+    <string name="lbl48">선택삭제</string>
+    <string name="lbl49">상품이름</string>
+    <string name="lbl_12_900">12,900원</string>
+    <string name="lbl_ar_pet">나의 AR PET</string>
+    <string name="lbl_2_902p">2,902P</string>
+    <string name="lbl30">자주 묻는 질문</string>
+    <string name="lbl31">공지사항</string>
+    <string name="lbl_9_900">9,900원</string>
+    <string name="lbl32">서비스정보</string>
+    <string name="lbl33">설정</string>
+    <string name="lbl_5_1_1">앱 현재 버전 5.1.1</string>
+    <string name="lbl">검색어를 입력하세요.</string>
+    <string name="lbl_my">MY</string>
+    <string name="lbl34">회원정보</string>
+    <string name="lbl_ar">AR</string>
+    <string name="lbl35">이름</string>
+    <string name="lbl36">홍길동</string>
+    <string name="lbl37">비밀번호 변경</string>
+    <string name="lbl38">로그아웃</string>
+    <string name="lbl39">알림 및 정보 수신 동의</string>
+    <string name="lbl_1_22"><![CDATA[(&#189;)]]></string>
+    <string name="lbl_1">1</string>
+    <string name="lbl20">스토어</string>
+    <string name="msg_ar_ar">AR펫</string>
+
+    <string name="lbl21">클리커</string>
+    <string name="lbl22">게임</string>
+    <string name="lbl23">찜</string>
+    <string name="lbl24">쿠폰함</string>
+    <string name="lbl25">나의후기</string>
+    <string name="lbl26">주문정보</string>
+    <string name="lbl27">장바구니</string>
+    <string name="lbl28">주문 내역</string>
+    <string name="lbl29">고객센터</string>
+    <string name="lbl_000">000님</string>
+    <string name="lbl_1_12">1:1 문의 </string>
+    <string name="lbl_point">POINT</string>
+    <string name="lbl_pet">나의 PET</string>
+    <string name="lbl_12_9002">12,900원 구매하기</string>
+    <string name="lbl8">내 주소를 설정해주세요.</string>
+    <string name="lbl9">광고배너</string>
+    <string name="lbl50">_</string>
+    <string name="lbl6">체험하기</string>
+    <string name="lbl51">+</string>
+    <string name="lbl7">주문내역</string>
+    <string name="lbl52">+ 상품 더 담기</string>
+    <string name="lbl53">총 결제 금액</string>
+    <string name="lbl10">우리동네</string>
+    <string name="lbl11">병원</string>
+    <string name="lbl12">호텔</string>
+    <string name="lbl13">미용실</string>
+    <string name="lbl14">카페</string>
+    <string name="lbl15">많이 찾는 서비스</string>
+    <string name="lbl16">출석체크</string>
+    <string name="lbl17">커뮤니티</string>
+    <string name="msg_1_2">1     접종시기
+
+2     사료추천
+
+3           
+
+4
+
+5</string>
+    <string name="lbl18">이벤트</string>
+    <string name="lbl19">다이어리</string>
+    <string name="lbbb">근처병원</string>
+    <string name="lbbc">AR 기능 사용법</string>
+    <string name="_1">1. 접종시기</string>
+    <string name="_2">2. 사료추천</string>
+    <string name="_3">3. 배변패드</string>
+    <string name="_4">4. 장난감</string>
+    <string name="_5">5. 양치껌</string>
+    <string name="todo">TODO</string>
+    <string name="check">TODO</string>
+    <string name="feed1">TODO</string>
+    <string name="yoyo">요요쉬 배변패드 플로랄와인향</string>
+    <string name="little">소형 50매</string>
+    <string name="xbox">TODO</string>
+    <string name="quan">TODO</string>
+    <string name="_12_900">12,900원</string>
+    <string name="emptycheck">TODO</string>
+    <string name="carseat">TODO</string>
+    <string name="car_seat">펫펫펫 강아지 카시트 애견</string>
+    <string name="ban">반려견</string>
+    <string name="_79_800">79,800원</string>
+    <string name="decide">TODO</string>
+    <string name="qqqq">이동</string>
+    <string name="qqqq1">장바구니</string>
+    <string name="gostore">스토어 보러 가기</string>
+    <string name="emptyb">TODO</string>
+    <string name="mymy">MY</string>
+    <string name="nnnn">000님</string>
+    <string name="point">POINT</string>
+    <string name="m_y">마이</string>
+    <string name="b_as">채운 장바구니</string>
+    <string name="e_b_s">빈장바구니</string>
+    <string name="s_e">세팅</string>
+    <string name="s_p">스플래쉬</string>
+    <string name="s_r">검색</string>
+</resources>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    style="@style/groupStylewhite_A700"
+    tools:context=".Search">
+
+    <LinearLayout
+        android:gravity="start"
+        android:id="@+id/linearRownineteen"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="23dp">
+        <LinearLayout
+            android:id="@+id/linearColumnarrowleft"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="6dp"
+                android:layout_width="match_parent"
+                app:contentInsetStart="0dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="6dp">
+                <LinearLayout
+                    android:id="@+id/linearRowarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <ImageView
+                        android:id="@+id/iv_back"
+                        android:layout_height="@dimen/_12pxh"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="@dimen/_7pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_arrowleft"/>
+                    <EditText
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_20"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl"
+                        android:id="@+id/etGroupThree"
+                        android:inputType="text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="0.97"
+                        android:layout_width="0dp"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:paddingBottom="@dimen/_10pxv"
+                        android:paddingRight="30dp"
+                        android:paddingLeft="18dp"
+                        android:paddingTop="@dimen/_10pxv"
+                        android:singleLine="true"
+                        android:text="검색어를 입력하세요"
+                        android:textColorHint="@color/gray_400"
+                        style="@style/etSolidRoundedOutline"
+                        tools:ignore="Autofill"
+                        android:layout_marginStart="25dp"
+                        android:paddingEnd="30dp"
+                        android:paddingStart="18dp" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNineteen"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="인기검색어"
+                style="@style/txtMarmeladregular16"
+                tools:text="@string/lbl2"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="1dp" />
+            <TextView android:id="@+id/tv_1"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:text="1.    접종시기"
+                style="@style/txtMarmeladregular16"
+                android:layout_marginEnd="10dp" />
+            <TextView android:id="@+id/tv_2"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:text="2.    사료추천"
+                style="@style/txtMarmeladregular16"
+                android:layout_marginEnd="10dp" />
+            <TextView android:id="@+id/tv_3"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:text="3.    배변패드"
+                style="@style/txtMarmeladregular16"
+                android:layout_marginEnd="10dp" />
+            <TextView android:id="@+id/tv_4"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:text="4.    장난감"
+                style="@style/txtMarmeladregular16"
+                android:layout_marginEnd="10dp" />
+            <TextView android:id="@+id/tv_5"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:text="5.    양치껌"
+                style="@style/txtMarmeladregular16"
+                android:layout_marginEnd="10dp" />
+
+        </LinearLayout>
+
+
+        <ImageView android:id="@+id/iv_basket"
+            android:layout_height="@dimen/_18pxh"
+            android:layout_marginBottom="@dimen/_270pxv"
+            android:layout_marginTop="18dp"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_bag"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_bag"/>
+
+
+    </LinearLayout>
+
+    <View android:background="@color/gray_300"
+        android:id="@+id/lineLineOne"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/_1pxv"
+        android:layout_marginEnd="@dimen/_23pxh"
+        android:layout_marginStart="@dimen/_23pxh"
+        android:layout_marginTop="@dimen/_46pxv" android:layout_width="@dimen/_326pxh"/>
+
+
+    <LinearLayout
+        android:gravity="start"
+        android:id="@+id/linearColumntwenty"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_31pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtTwenty"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_23pxh"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:singleLine="true"
+            android:text="@string/lbl3"
+            style="@style/txtMarmeladregular16"
+            tools:text="@string/lbl3"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowellipsethree"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnellipsethree"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_weight="0.26"
+                android:layout_width="wrap_content">
+                <View
+                    android:background="@drawable/rectangle_bg_black_900_radius_3_5"
+                    android:id="@+id/viewEllipseThree"
+                    android:layout_height="7dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="7dp"
+                    android:layout_marginEnd="30dp" />
+                <TextView
+                    android:id="@+id/txtARAR"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.74"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="AR펫"
+                    style="@style/txtMarmeladregular16"
+                    tools:ignore="NestedWeights" />
+
+            </LinearLayout>
+
+            <LinearLayout android:gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.26"
+                android:layout_width="wrap_content">
+                <View
+                    android:background="@drawable/rectangle_bg_black_900_radius_3_5"
+                    android:layout_height="7dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="7dp"
+                    android:layout_marginEnd="30dp" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.74"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="@string/lbbb"
+                    style="@style/txtMarmeladregular16"
+                    tools:ignore="NestedWeights" />
+
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.26"
+                android:layout_width="wrap_content">
+                <View
+                    android:background="@drawable/rectangle_bg_black_900_radius_3_5"
+                    android:layout_height="7dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="7dp"
+                    android:layout_marginEnd="30dp" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.74"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="@string/lbbc"
+                    style="@style/txtMarmeladregular16"
+                    tools:ignore="NestedWeights" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearColumnhome"
+        style="@style/groupStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#FFEDD2">
+
+        <LinearLayout
+            android:id="@+id/linearRowhome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_36pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_marginRight="@dimen/_29pxh"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/_36pxh"
+            android:layout_marginEnd="@dimen/_29pxh">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="@dimen/_16pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_home"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_home" />
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="@dimen/_18pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_search"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_search"
+                android:layout_marginStart="56dp" />
+
+            <TextView
+                android:id="@+id/txtAR"
+                style="@style/txtMarmeladregular20"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="63dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="AR"
+                tools:text="@string/lbl_ar"
+                android:layout_marginStart="63dp" />
+
+            <ImageView
+                android:id="@+id/iv_order"
+                android:layout_width="@dimen/_15pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_file"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_file"
+                android:layout_marginStart="35dp" />
+
+            <ImageView
+                android:id="@+id/iv_my"
+                android:layout_width="@dimen/_14pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_user"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_user"
+                android:layout_marginStart="70dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearRowfiftythree"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="@dimen/_36pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_marginRight="@dimen/_26pxh"
+            android:layout_marginBottom="@dimen/_32pxv"
+            android:layout_marginStart="@dimen/_36pxh"
+            android:layout_marginEnd="@dimen/_26pxh">
+
+            <TextView
+                android:id="@+id/txtFiftyThree"
+                style="@style/txtMarmeladregular13"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_weight="0.05"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="홈"
+                tools:text="@string/lbl4" />
+
+            <TextView
+                android:id="@+id/txtFiftyFour"
+                style="@style/txtMarmeladregular13"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginLeft="43dp"
+                android:layout_weight="0.17"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="검색"
+                tools:text="@string/lbl5"
+                android:layout_marginStart="43dp" />
+
+            <TextView
+                android:id="@+id/txtFiftyFive"
+                style="@style/txtMarmeladregular13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="체험하기"
+                tools:text="@string/lbl6"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:id="@+id/txtFiftySix"
+                style="@style/txtMarmeladregular13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.35"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="주문내역"
+                tools:text="@string/lbl7"
+                android:layout_marginStart="30dp" />
+
+
+            <TextView
+                android:id="@+id/txtMYOne"
+                style="@style/txtMarmeladregular13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_weight="0.14"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="MY"
+                tools:text="@string/lbl_my"
+                android:layout_marginStart="37dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

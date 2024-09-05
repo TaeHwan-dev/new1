@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/groupStyleorange_50"
+    android:orientation="vertical"
+    tools:context=".Quiz1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_40pxv"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="문제 1."
+            android:textStyle="bold"
+            android:textColor="@color/lime_100"
+            android:textAppearance="@style/some_id_2"
+            android:lineSpacingExtra="-1sp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="351dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="다음 중 3개월령 강아지를 입양 후 특히 조심해야할 전염병 중 아닌 것을 고르시오."
+            android:textStyle="bold"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"
+            android:gravity="top" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/lime_100"
+        android:id="@+id/lineLineFour"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/_3pxv"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_15pxv"
+        android:layout_width="@dimen/_354pxh"
+        android:layout_marginRight="@dimen/_21pxh"
+        android:layout_marginLeft="@dimen/_21pxh" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="1. 파보 장염"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="2. 코로나 장염"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"/>
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="3. 홍역"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"/>
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="4. 켄넬코프"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"/>
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="5. A형 간염"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="-1sp"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/logo2"/>
+
+
+
+
+
+</LinearLayout>

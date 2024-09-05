@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:font="@font/interbo" app:fontWeight="400"
+        tools:ignore="ResourceCycle" />
+</font-family>
